@@ -1,17 +1,28 @@
-import Image from "@/components/Image"
+import Feed from "@/components/Feed"
+import Share from "@/components/Share"
+import Link from "next/link"
 
 const Homepage = () => {
   return (
     <div className=''>
-      <div className="relative">
-        <Image
-         path="general/post.jpeg"
-         w={600}
-         h={600}
-         alt="test pos"
-         tr={false}
-        />
+      <div
+       className="px-4 pt-4 flex justify-between text-textGray font-bold border-b-[1px] border-borderGray"
+      >
+        <Link
+         className="pb-3 flex items-center border-b-4 border-iconBlue"
+         href="/"
+        >
+          For You
+        </Link>
+        <Link
+         className="pb-3 flex items-center"
+         href="/"
+        >
+          Following
+        </Link>
       </div>
+      <Share/>
+      <Feed/>
     </div>
   )
 }
