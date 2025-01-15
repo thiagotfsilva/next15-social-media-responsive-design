@@ -13,7 +13,6 @@ type ImageType = {
 
 const urlEndpoint = process.env.NEXT_PUBLIC_URL_ENDPOINT;
 
-
 const Image = ({
   path,
   w,
