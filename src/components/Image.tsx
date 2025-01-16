@@ -8,7 +8,7 @@ type ImageType = {
   h?: number;
   alt: string;
   className?: string;
-  tr: boolean;
+  tr?: boolean;
 }
 
 const urlEndpoint = process.env.NEXT_PUBLIC_URL_ENDPOINT;

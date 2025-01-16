@@ -20,6 +20,24 @@ const Homepage = () => {
         >
           Following
         </Link>
+        <Link
+         className="hidden pb-3 md:flex items-center"
+         href="/"
+        >
+          React.js
+        </Link>
+        <Link
+         className="hidden pb-3 md:flex items-center"
+         href="/"
+        >
+          Javascript
+        </Link>
+        <Link
+         className="hidden pb-3 md:flex items-center"
+         href="/"
+        >
+          CSS
+        </Link>
       </div>
       <Share/>
       <Feed/>
