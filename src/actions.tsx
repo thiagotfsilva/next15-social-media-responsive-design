@@ -27,5 +27,6 @@ export const shareAction = async (formData: FormData) => {
     function(error, result) {
       if(error) console.log(error)
       else console.log(result)
-    })
+    }
+  )
 }
